@@ -19,10 +19,24 @@ Kemudian anda diminta untuk mendesain arsitektur cloud yang sesuai dengan kebutu
 ### Rancangan Arsitektur dan Tabel Harga Spesifikasi VM
 Berikut adalah rancangan arsitektur yang telah kami buat untuk final project kami arsitektur
 ![Rancangan Arsitektur VM](images/Rancangan_VM.png)
-Kami memilih untuk menggunakan Azure dan Digital Ocean sebagai lingkungan cloud yang akan kami gunakan. Berikut adalah tabel harga spesifikasi VM yang kami buat
+Kami memilih untuk menggunakan Digital Ocean sebagai lingkungan cloud yang akan kami gunakan. Berikut adalah tabel harga spesifikasi VM yang kami buat
 ![Harga Config VM](images/Harga_VM.png)
 
 ### Langkah Implementasi dan Konfigurasi Teknologi
+Buat database dan copy connection string
+![Setup DB](images/SetupDB.png)
+
+Connect Database dengan MongodbCompass dan isi database tersebut
+![MongoDB Compass](images/Mongodb.png)
+![JSON DATABASE](images/Json_file.png)
+
+Buat Droplet VM dan setup
+![Create Worker](images/Create_worker.png)
+![Install Dependency](images/install_dependency.png)
+
+buat app.py lalu run
+![run app.py](images/run_apppy.png)
+
 
 ### Hasil Pengujian Setiap Endpoint
 
