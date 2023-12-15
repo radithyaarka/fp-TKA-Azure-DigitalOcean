@@ -24,10 +24,10 @@ Kami memilih untuk menggunakan Digital Ocean sebagai lingkungan cloud yang akan 
 
 ### Langkah Implementasi dan Konfigurasi Teknologi
 Buat database dan copy connection string
-![Setup DB](images/SetupDB.png)
+![Setup DB](images/setupDB.png)
 
 Connect Database dengan MongodbCompass dan isi database tersebut
-![MongoDB Compass](images/Mongodb.png)
+![MongoDB Compass](images/MongodbC.png)
 ![JSON DATABASE](images/Json_file.png)
 
 Buat Droplet VM dan setup
